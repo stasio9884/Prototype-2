@@ -735,7 +735,6 @@ MonoBehaviour:
   - {fileID: 1190336751}
   - {fileID: 870785422}
   - {fileID: 700593307}
-  animalIndex: 0
 --- !u!4 &1659802638
 Transform:
   m_ObjectHideFlags: 0
@@ -781,7 +780,7 @@ PrefabInstance:
     - target: {fileID: 5435841372032433347, guid: 414462bdc830ba64288e1f1228a7fff0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 33.74
+      value: 29.08
       objectReference: {fileID: 0}
     - target: {fileID: 5435841372032433347, guid: 414462bdc830ba64288e1f1228a7fff0,
         type: 3}
