@@ -890,6 +890,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5938579643924254054}
   - component: {fileID: 5938579643927770608}
+  - component: {fileID: 2419341478390050923}
   m_Layer: 0
   m_Name: SM_Fox_02
   m_TagString: Untagged
@@ -960,6 +961,19 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.000000059604645, y: -0.029301882, z: 0.073896945}
     m_Extent: {x: 0.040517867, y: 0.104077205, z: 0.1580456}
   m_DirtyAABB: 0
+--- !u!65 &2419341478390050923
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5938579643924639858}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.091197304, y: 0.20815443, z: 0.32320443}
+  m_Center: {x: 0.0010160924, y: -0.02930187, z: 0.07034035}
 --- !u!1 &5938579643924640210
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,6 +986,8 @@ GameObject:
   - component: {fileID: 5938579643931928934}
   - component: {fileID: 5938579643949438841}
   - component: {fileID: 169883109}
+  - component: {fileID: 8844663655983080211}
+  - component: {fileID: 7817112935222138395}
   m_Layer: 0
   m_Name: Animal_Fox_02
   m_TagString: Untagged
@@ -1047,5 +1063,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cefdaee455f0af548b905b2c5dc8d83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &8844663655983080211
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5938579643924640210}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7817112935222138395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5938579643924640210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c6076b0a23b43b43ade5c0566441d5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

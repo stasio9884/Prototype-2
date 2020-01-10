@@ -480,18 +480,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   m_LocalRotation: {x: 0.48776728, y: 0.006219098, z: 0.08325662, w: 0.86897224}
-  m_LocalPosition: {x: -0, y: 28.85, z: -8.87}
+  m_LocalPosition: {x: -1.25, y: 40.35, z: -15.99}
   m_LocalScale: {x: 0.90357316, y: 18.071465, z: 0.24867645}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 122.147995, y: 189.959, z: 196.459}
---- !u!1 &700593307 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6676781934363245551, guid: 8663d9a99499e1b498f5b38c832e24f1,
-    type: 3}
-  m_PrefabInstance: {fileID: 6676781933902864573}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &745153045 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 7169122e91e1981469b2b6045ddf7963,
@@ -515,12 +509,6 @@ MonoBehaviour:
   xRange: 10
   projectilePrefab: {fileID: 1221444901145633004, guid: 7205d75e8ec296242954a17e83f0ab07,
     type: 3}
---- !u!1 &870785422 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5938579643924640210, guid: d9c6ff59e1b37df469b8abe529995524,
-    type: 3}
-  m_PrefabInstance: {fileID: 5938579644100297206}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &992285705
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,18 +542,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1190336751 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5435841372032150003, guid: 414462bdc830ba64288e1f1228a7fff0,
-    type: 3}
-  m_PrefabInstance: {fileID: 5435841372131819077}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1385396701 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6181228772382691601, guid: bbb28c330b236104387a1a9192f649f5,
-    type: 3}
-  m_PrefabInstance: {fileID: 6181228773444903252}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1497814180
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -730,11 +706,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalPrefabs:
-  - {fileID: 1385396701}
-  - {fileID: 1879488627}
-  - {fileID: 1190336751}
-  - {fileID: 870785422}
-  - {fileID: 700593307}
+  - {fileID: 5938579643924640210, guid: d9c6ff59e1b37df469b8abe529995524, type: 3}
+  - {fileID: 5435841372032150003, guid: 414462bdc830ba64288e1f1228a7fff0, type: 3}
+  - {fileID: 6181228772382691601, guid: bbb28c330b236104387a1a9192f649f5, type: 3}
+  - {fileID: 7045952744824897540, guid: c239dc82d3740b446a1ac6d54b33fdb6, type: 3}
+  - {fileID: 6676781934363245551, guid: 8663d9a99499e1b498f5b38c832e24f1, type: 3}
 --- !u!4 &1659802638
 Transform:
   m_ObjectHideFlags: 0
@@ -749,12 +725,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1879488627 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7045952744824897540, guid: c239dc82d3740b446a1ac6d54b33fdb6,
-    type: 3}
-  m_PrefabInstance: {fileID: 7045952744875546371}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5435841372131819077
 PrefabInstance:
   m_ObjectHideFlags: 0

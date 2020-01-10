@@ -138,6 +138,8 @@ GameObject:
   - component: {fileID: 5435841372039496679}
   - component: {fileID: 5435841371850216034}
   - component: {fileID: 924621931}
+  - component: {fileID: 8023455804384075815}
+  - component: {fileID: 1919831672468759499}
   m_Layer: 0
   m_Name: Animal_Horse_Black
   m_TagString: Untagged
@@ -207,6 +209,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cefdaee455f0af548b905b2c5dc8d83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &8023455804384075815
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435841372032150003}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1919831672468759499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435841372032150003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c6076b0a23b43b43ade5c0566441d5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &5435841372032151813
@@ -1450,6 +1477,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5435841372032345489}
   - component: {fileID: 5435841372035297221}
+  - component: {fileID: 6137831639854170029}
   m_Layer: 0
   m_Name: SA_Animal_Horse_Black
   m_TagString: Untagged
@@ -1560,6 +1588,19 @@ SkinnedMeshRenderer:
     m_Center: {x: 0, y: -0.8832464, z: 11.784651}
     m_Extent: {x: 5.571748, y: 18.315586, z: 21.710882}
   m_DirtyAABB: 0
+--- !u!65 &6137831639854170029
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435841372032249511}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 13.115405, y: 36.631172, z: 45.21441}
+  m_Center: {x: 0.44816077, y: 18.315582, z: 3.7992883}
 --- !u!1 &5435841372032253833
 GameObject:
   m_ObjectHideFlags: 0
